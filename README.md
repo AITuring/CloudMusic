@@ -13,46 +13,35 @@
 - [x] 播放音乐
 - [x] 歌词滚动
 - [x] 查看评论
-- [ ] 底部迷你播放器
+- [x] 底部迷你播放器
   
 TODO：
+- [ ] 底部迷你播放器左右滑动切歌
+- [ ] 播放器全屏
+- [ ] 音乐播放进度条
+- [ ] 进度条拖拽
+- [ ] 播放模式切换
+- [ ] 播放列表
+- [ ] 登录
+- [ ] 每日推荐
+- [ ] 喜欢歌曲
+- [ ] 对歌曲评论
+...
 
 ### 🎴运行截图
 
 ### 🔗技术栈
-
-### 💻运行此项目
-
-### 📚项目结构
-
-
-
-* 项目技术都比较简单，适合新手拿来练手的入门级Vue开发实战项目;
-* 主要功能有：推荐歌单、搜索歌曲、歌词滚动等;
-
-> 网易云音乐移动官网是使用React构建的, 虽然音乐播放器烂大街了，但心血来潮还是写了一个Vue版本,界面看起来和官网没多大差别;  
->[API来源][2]
-
-## 在线预览效果
-
-* PC端请使用Chrome手机模式[PC端点我预览][1];手机扫下面二维码;
-
- > ![二维码](https://github.com/janyin/vue-wangyiyun-music/blob/master/screenshot/qrcode.png)
-
- > <strong>如果喜欢可以右上角给个⭐Star⭐, 谢谢！</strong>
- ---
-
-## 用到的部分技术
-
 * 构建工具：Vue cli3;
 * 框架：Vue + Vue router + Vuex;
 * http请求：axios;
 * 歌词滚动：better-scroll;
 * 部分UI组件：Vux;
 
-## 运行此项目
-  
-  ```git
+[API](https://binaryify.github.io/NeteaseCloudMusicApi)
+
+### 💻运行此项目
+
+ ```git
   git clone https://github.com/janyin/vue-wangyiyun-music.git
   
   cd vue-wangyiyun-music
@@ -64,19 +53,9 @@ TODO：
   npm run build (打包发布)
   ```
 
-## 效果截图
+### 📚项目结构
 
-* ![首页](https://github.com/janyin/vue-wangyiyun-music/blob/master/screenshot/1.png)
-![播放](https://github.com/janyin/vue-wangyiyun-music/blob/master/screenshot/2.png)
-
-* ![评论](https://github.com/janyin/vue-wangyiyun-music/blob/master/screenshot/3.png)
-![歌单](https://github.com/janyin/vue-wangyiyun-music/blob/master/screenshot/4.png)
-
-## 项目目录
-
-<details>
-<summary>展开查看</summary>
-<pre><code>
+```
 
 │  App.vue    //根组件
 │  main.js    //项目入口
@@ -86,18 +65,7 @@ TODO：
 │      getData.js           // Api数据请求参数配置
 │
 ├─assets                    // 静态资源
-│      disc_default.png
-│      disc_plus.png
-│      find.svg
-│      foot.svg
-│      footbg.png
-│      hot_bg.jpg
-│      hot_icon.png
-│      like.svg
-│      logo.svg
-│      needle_plus.png
-│      playbar.png
-│      play_btn.png
+│      
 │
 ├─components               //组件目录
 │  │  comment.vue          //单个评论组件
@@ -139,10 +107,15 @@ TODO：
 └─utils                      //公用JS目录
         global.js            //图片懒加载配置
         lrcparse.js          //歌词数据解析
+```
 
-</code></pre>
 
-</details>
 
-[1]: http://music.wanegbt.cn/
-[2]: https://binaryify.github.io/NeteaseCloudMusicApi
+
+* PC端请使用Chrome手机模式[PC端点我预览][1];手机扫下面二维码;
+
+ > ![二维码](https://github.com/janyin/vue-wangyiyun-music/blob/master/screenshot/qrcode.png)
+
+ > <strong>如果喜欢可以右上角给个⭐Star⭐, 谢谢！</strong>
+ ---
+
