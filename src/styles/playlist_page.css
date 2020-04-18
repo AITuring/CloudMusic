@@ -1,0 +1,131 @@
+.playlistwrap{
+    background-color: #F8F8F8;
+    padding-bottom: 58px;
+}
+.list-head{
+    position: relative;
+    padding: 5px 10px 24px 15px;
+    overflow: hidden;
+}
+.list-head-bg{
+    position: absolute;
+    height: 126px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.list-head-content{
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+.lhc-img{
+    width: 126px;
+    height: 126px;
+    position: relative;
+    background-color: #e2e2e3;
+}
+.lhc-img img{
+    width: 100%;
+    vertical-align: middle;
+}
+.s-icon{
+    position: absolute;
+    z-index: 3;
+    top: 10px;
+    left: 0;
+    padding: 0 8px;
+    height: 17px;
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+    line-height: 17px;
+    background-color: rgba(217,48,48,.8);
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+.lhc-info{
+    flex: 1 1 auto;
+    width: 1%;
+    margin-left: 16px;
+}
+.lhc-title{
+    padding-top: 1px;
+    font-size: 17px;
+    line-height: 1.3;
+    color: #fefefe;
+    height: 44px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.list-info{
+    position: relative;
+    margin: 0 10px 0 15px;
+    padding-top: 10px;
+    line-height: 19px;
+    color: #666;
+}
+.info-tags{
+    margin-bottom: 10px;
+    line-height: 20px;
+    margin-right: -10px;
+}
+.tag{
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    padding: 1px 8px;
+    font-size: 12px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 50%;
+    font-style: normal;
+}
+.info-intro{
+    position: relative;
+    padding-bottom: 18px;
+    line-height: 19px;
+    color: #666;
+}
+.info-intro span{
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+}
+.list-song{
+    padding-bottom: 20px;
+}
+.list-song h3{
+    height: 23px;
+    line-height: 23px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #666;
+    background-color: #eeeff0;
+}
+.getBack{
+    position: relative;
+    color: #fff;
+    padding-left: 13px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.getBack:before{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border: solid #fff;
+    border-width: 3px 0 0 3px;
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg);
+    top: 7px;
+    left: 0;
+}
