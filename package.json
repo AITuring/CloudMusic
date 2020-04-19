@@ -10,6 +10,7 @@
   "dependencies": {
     "axios": "^0.18.1",
     "better-scroll": "^1.15.2",
+    "pwa": "^1.9.7",
     "vue": "^2.6.11",
     "vue-lazyload": "^1.3.3",
     "vue-router": "^3.1.6",

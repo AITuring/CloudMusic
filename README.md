@@ -1,6 +1,8 @@
 # 基于vue的网易云音乐移动端web app
 
 ### 📱在线预览
+* PC端请使用Chrome手机模式[PC端点我预览](https://music.apoollo.xyz/)
+* 手机扫下面二维码;
 
 ### 🧰主要功能
 
@@ -55,8 +57,14 @@ TODO：
 
 ### 📚项目结构
 
-```
 
+<details>
+  
+  <summary><= 点击查看</summary>
+  
+  
+  
+```
 │  App.vue    //根组件
 │  main.js    //项目入口
 │  router.js  //vue router路由配置
@@ -108,14 +116,7 @@ TODO：
         global.js            //图片懒加载配置
         lrcparse.js          //歌词数据解析
 ```
+</details>
 
 
-
-
-* PC端请使用Chrome手机模式[PC端点我预览][1];手机扫下面二维码;
-
- > ![二维码](https://github.com/janyin/vue-wangyiyun-music/blob/master/screenshot/qrcode.png)
-
- > <strong>如果喜欢可以右上角给个⭐Star⭐, 谢谢！</strong>
- ---
 
