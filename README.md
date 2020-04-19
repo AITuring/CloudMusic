@@ -2,7 +2,8 @@
 
 ### 📱在线预览
 * PC端请使用Chrome手机模式[PC端点我预览](https://music.apoollo.xyz/)
-* 手机扫下面二维码;
+* 手机扫下面二维码:
+  ![](/public/qrcode.png)
 
 ### 🧰主要功能
 
