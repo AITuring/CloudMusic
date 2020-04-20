@@ -1,7 +1,7 @@
 # 基于vue的网易云音乐移动端web app
 
 ### 📱在线预览
-* PC端请使用Chrome手机模式[PC端点我预览](https://music.apoollo.xyz/)
+* PC端请使用Chrome手机模式[点我预览](https://music.apoollo.xyz/)
 * 手机扫下面二维码:
   ![](/public/qrcode.png)
 
@@ -32,6 +32,12 @@ TODO：
 ...
 
 ### 🎴运行截图
+
+![推荐音乐](/public/music.png)
+
+![](/public/music1.png)
+
+![](/public/music2.png)
 
 ### 🔗技术栈
 * 构建工具：Vue cli3;
